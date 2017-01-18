@@ -38,23 +38,45 @@ As it makes sense to you please write the following in JSON format:
 -   Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
 
 ```json
-<!-- your answer here -->
-```
+{
+  "jason":{
+    "Cat":["Mr.Kitty"],
+    "roomate":["Dave", "Miller"],
+    "fanOf":["Red Sox", "Patriots", "Bruins"],
+    "adressesLivedOn":[ "123 Fake street",  "2 Muchinfo Road"]
+  }
+
+  }```
 
 I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
 other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
 already wrote and include the information about Dave's fish.
 
 ```json
-<!-- your answer here -->
+{
+  "jason":{
+    "pet":["Cat:Mr.Kitty"],
+    "roomate":["Dave", "Miller"],
+    "fanOf":["Red Sox", "Patriots", "Bruins"],
+    "adressesLivedOn":[ "123 Fake street",  "2 Muchinfo Road"]
+   }
+  {
+    "Dave":{
+      "Goldfish":[
+        {"name" :"bob", "color:" "Red" },
+        {"name":"Mr.MagicNibbles", "color":"yellow", "behivor":"Bits a bit"}
+      ]
+    }
+  }
+}
 ```
-
+!!! im not sure i understand how or why we use JSON but hopfully i will soon.
 ## JSON Methods
 
 Using the JSON your wrote above, can you write a method on the JSON?
 
 ```json
-<!-- your answer here -->
+No..its just data exchange format
 ```
 
 ## JSON Comments
@@ -62,5 +84,4 @@ Using the JSON your wrote above, can you write a method on the JSON?
 Using the JSON your wrote above, can you write a comment in the JSON?
 
 ```json
-<!-- your answer here -->
-```
+no```
